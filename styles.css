@@ -1,0 +1,104 @@
+body {
+    background-color: #EDEFEE;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px; 
+    width: auto;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: darkslategray;
+    padding: 4px;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    margin: 50px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.offer {
+    color: yellow;
+
+}
+section{
+    display: flex;
+}
+
+article {
+    flex: 1;
+    background-color:bisque;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article img {
+    width: 95% ;
+    height: 200px;
+    object-fit: cover;
+    
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.banner {
+    background-size: cover;
+    background-position: left;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    color:white;
+    background-image: url(arrangement-with-flowers-gardening-tools2.jpg);
+}
+
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    font-weight: bold;
+}
+
+footer div img{
+    height: 100px;
+    width: auto;
+    float:right;
+    margin-right: 20px;
+}
+
+footer div p {
+    border-top: 2px solid black;
+    text-align: right;
+}
